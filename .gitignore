@@ -1,0 +1,19 @@
+cat <<EOF > .gitignore
+# Binaries
+sim-outorder
+sim-cache
+sim-bpred
+*.ss
+
+# Workloads
+*.ppm
+*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Temp files
+core
+*.tmp
+EOF
